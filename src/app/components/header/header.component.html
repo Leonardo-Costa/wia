@@ -1,0 +1,19 @@
+<nav class="header-container" [class.header-container--scrolled]="scrolled">
+  <div class="header-container__image-container">
+    <img class="header-container__image" [src]="logoPath" alt="monogram" />
+  </div>
+  <div class="header-container__options">
+    <button class="header-container__item" (click)="navigate('home')">
+      <div class="header-container__title">Home</div>
+      <div class="header-container__line"></div>
+    </button>
+    <button class="header-container__item" (click)="navigate('about')">
+      <div class="header-container__title">Sobre</div>
+      <div class="header-container__line"></div>
+    </button>
+    <button class="header-container__item" (click)="navigate('contact')">
+      <div class="header-container__title">Contato</div>
+      <div class="header-container__line"></div>
+    </button>
+  </div>
+</nav>
