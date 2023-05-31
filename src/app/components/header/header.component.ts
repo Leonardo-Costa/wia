@@ -26,8 +26,6 @@ export class HeaderComponent {
   }
 
   navigate(event: string): void {
-    console.warn('navigate was called');
-
     switch (event) {
       case 'home':
         this.router.navigate(['home']);
