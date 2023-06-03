@@ -5,4 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
 })
-export class HomeComponent {}
+export class HomeComponent {
+  targetDate: Date = new Date('2023-07-15');
+}
