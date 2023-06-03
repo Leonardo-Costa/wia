@@ -70,4 +70,10 @@
     border-radius: 10px;
     height: 5px;
   }
+
+  &__image-container {
+    &:hover {
+      cursor: pointer;
+    }
+  }
 }

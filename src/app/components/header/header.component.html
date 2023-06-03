@@ -1,5 +1,5 @@
 <nav class="header-container" [class.header-container--scrolled]="scrolled">
-  <div class="header-container__image-container">
+  <div class="header-container__image-container" (click)="navigate('home')">
     <img class="header-container__image" [src]="logoPath" alt="monogram" />
   </div>
   <div class="header-container__options">

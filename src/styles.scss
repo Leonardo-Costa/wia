@@ -1,10 +1,15 @@
 :root {
-  --primary: #6e0094;
-  --primary-dark: #490061;
-  --primary-light: #b943e0;
-  --primary-lightest: #d24dff;
+  --primary: #58008f;
+  --primary-dark: #39005c;
+  --primary-light: #cf89fa;
+  --primary-lightest: #cf89fa;
+}
+
+@font-face {
+  font-family: "GothamMedium_1";
+  src: url("./assets/fonts/GothamMedium_1.ttf") format("truetype");
 }
 
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: "GothamMedium_1", sans-serif;
 }

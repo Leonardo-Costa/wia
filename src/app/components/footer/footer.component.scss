@@ -2,10 +2,19 @@
 
 .footer-container {
   background-color: var(--primary-dark);
-  padding: 40px 0 10px 0;
+  padding: 40px 0;
   height: 50px;
 
-  &__item {
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    margin-bottom: 10px;
+  }
+  &__text {
+    font-size: 14px;
     display: flex;
     align-items: center;
     justify-content: center;

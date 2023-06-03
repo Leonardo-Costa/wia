@@ -1,0 +1,14 @@
+.countdown-timer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  &__number {
+    font-size: 48px;
+    margin: 0 5px;
+  }
+  &__label {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0px 10px 10px 0px;
+  }
+}
