@@ -1,9 +1,14 @@
 @import "../../../styles.scss";
 
-.footer-container {
+.footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
   background-color: var(--primary-dark);
-  padding: 40px 0;
-  height: 50px;
+  padding: 40px 40px;
+  min-height: 50px;
 
   &__title {
     display: flex;
@@ -13,12 +18,20 @@
     color: white;
     margin-bottom: 10px;
   }
+
   &__text {
-    font-size: 14px;
+    font-size: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     color: white;
+    padding: 5px 0;
+  }
+
+  &__image {
+    display: block;
+    height: 80px;
+    margin-bottom: 10px;
   }
 }

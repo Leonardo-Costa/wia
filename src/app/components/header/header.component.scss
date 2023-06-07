@@ -34,7 +34,7 @@
     justify-content: space-between;
     max-width: 300px;
     flex-direction: row;
-    column-gap: 10px;
+    column-gap: 5px;
     transition: 0.5s;
     @media (min-width: 768px) {
       transition: 0.5s;
@@ -43,9 +43,14 @@
   }
 
   &__item {
-    padding: 10px 10px;
+    padding: 10px 5px;
     border: 0px;
     background-color: transparent;
+    transition: 0.5s;
+    @media (min-width: 768px) {
+      transition: 0.5s;
+      padding: 10px 10px;
+    }
 
     &:hover {
       cursor: pointer;
@@ -66,7 +71,7 @@
   &__line {
     width: 0%;
     transition: 0.3s;
-    background-color: var(--primary-light);
+    background-color: white;
     border-radius: 10px;
     height: 5px;
   }

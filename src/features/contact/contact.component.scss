@@ -22,7 +22,6 @@
     display: flex;
     flex: 1;
     color: white;
-    font-size: 40px;
     padding-top: 200px;
     flex-direction: column;
     justify-content: center;
@@ -58,5 +57,10 @@
       scale: 1.1;
       box-shadow: 0 0 30px 5px rgba(201, 91, 245, 0.5);
     }
+  }
+
+  &__contact-info {
+    display: flex;
+    flex-direction: row;
   }
 }
