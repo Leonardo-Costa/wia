@@ -18,10 +18,14 @@
   &__section {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 100vh;
-    width: 80%;
+    width: 90%;
+
+    @media (min-width: 768px) {
+      width: 80%;
+    }
   }
 
   &__body {
@@ -64,6 +68,13 @@
     flex-direction: column;
     width: 80%;
     margin-bottom: 50px;
+    transition: 0.5s;
+    margin-top: 20vh;
+
+    @media (min-width: 768px) {
+      transition: 0.5s;
+      margin-top: 0;
+    }
   }
 
   &__logo {
@@ -73,17 +84,37 @@
   &__logo-subtitle {
     color: white;
     text-align: center;
+    font-size: 12px;
+    transition: 0.5s;
+
+    @media (min-width: 768px) {
+      transition: 0.5s;
+
+      font-size: 20px;
+    }
   }
 
   &__sponsors {
     display: flex;
-    justify-content: flex-end;
-    column-gap: 20px;
-    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media (min-width: 786px) {
+      flex-direction: row;
+      column-gap: 20px;
+    }
   }
 
   &__sponsor-image {
-    width: 20%;
+    transition: 0.5s;
+    width: 70%;
+
+    @media (min-width: 786px) {
+      transition: 0.5s;
+
+      width: 30%;
+    }
   }
 
   &__subscribe-button {
