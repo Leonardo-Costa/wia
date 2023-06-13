@@ -1,11 +1,25 @@
 <div class="home">
   <section class="home__section">
-    <div class="home__about-me">
-      <div class="home__body">
-        <div class="home__title">Faltam</div>
-        <app-countdown-timer [targetDate]="targetDate"></app-countdown-timer>
-        <div class="home__text">para o 1º Workshop de IA do ICT-UNIFESP!</div>
-      </div>
+    <div class="home__logo-container">
+      <img [src]="logo" alt="" class="home__logo" />
+      <h1 class="home__logo-subtitle">
+        1º Workshop de Inteligência Artificial do Instituto de Ciência e
+        Tecnologia (ICT) da UNIFESP
+      </h1>
+    </div>
+    <div class="home__sponsors">
+      <img [src]="unifespLogo" alt="" class="home__sponsor-image" />
     </div>
   </section>
+  <section class="home__time-until">
+    <div class="home__body">
+      <div class="home__title">Faltam apenas</div>
+      <app-countdown-timer [targetDate]="targetDate"></app-countdown-timer>
+      <div class="home__text">para o 1º Workshop de IA do ICT-UNIFESP!</div>
+      <button class="home__subscribe-button" (click)="subscribe()">
+        Se inscreva
+      </button>
+    </div>
+  </section>
+  <section class="home__section"></section>
 </div>

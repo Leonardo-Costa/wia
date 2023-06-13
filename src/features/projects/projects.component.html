@@ -1,3 +1,18 @@
-<div class="projects-container">
-  <section class="projects-container__section"></section>
+<div class="projects">
+  <section class="projects__section">
+    <div class="projects__body">
+      <div class="projects__title">
+        Projetos desenvolvidos para o 1º WIA-ICT
+      </div>
+    </div>
+
+    <div class="projects__list">
+      <div
+        class="projects__project-card"
+        *ngFor="let projectCard of projectCards"
+      >
+        <app-project-card [cardData]="projectCard"></app-project-card>
+      </div>
+    </div>
+  </section>
 </div>

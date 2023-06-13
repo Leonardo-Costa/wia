@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AboutComponent } from 'src/features/about/about.component';
 import { ContactComponent } from 'src/features/contact/contact.component';
 import { HomeComponent } from 'src/features/home/home.component';
+import { ProjectsComponent } from 'src/features/projects/projects.component';
 
 const routes: Routes = [
   {
@@ -14,8 +14,8 @@ const routes: Routes = [
     redirectTo: '',
   },
   {
-    path: 'about',
-    component: AboutComponent,
+    path: 'projects',
+    component: ProjectsComponent,
   },
   {
     path: 'contact',
