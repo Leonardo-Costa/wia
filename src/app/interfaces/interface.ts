@@ -2,7 +2,7 @@ export interface ProjectCard {
   imageUrl: string;
   title: string;
   summary: string;
-  link: string;
+  link?: string;
   authors: Author[];
 }
 

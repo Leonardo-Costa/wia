@@ -1,10 +1,21 @@
 <div class="project-card">
-  <div class="project-card__image-container">
-    <img [src]="cardData.imageUrl" alt="" class="project-card__image" />
+  <div class="project-card__content">
+    <div class="project-card__image-container">
+      <img [src]="cardData.imageUrl" alt="" class="project-card__image" />
+    </div>
+    <div class="project-card__title">{{ cardData.title }}</div>
+    <div class="project-card__summary">{{ cardData.summary }}</div>
   </div>
-  <div class="project-card__title">{{ cardData.title }}</div>
-  <div class="project-card__summary">{{ cardData.summary }}</div>
-  <!-- <div class="project-card__authors" *ngFor="let author of cardData?.authors">
-    <button class="project__students">{{ author?.name | json }}</button>
-  </div> -->
+  <div class="project-card__authors">
+    <div *ngFor="let author of cardData?.authors">
+      <button
+        class="project-card__author"
+        (click)="
+          goToAuthorSocialLink(!!author?.socialUrl ? author.socialUrl : '')
+        "
+      >
+        {{ getAuthorName(!!author?.name ? author.name : "") }}
+      </button>
+    </div>
+  </div>
 </div>

@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Output } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -10,9 +10,10 @@ export class HomeComponent {
   unifespLogo: string = '../../assets/images/unifesp-logo.png';
   targetDate: Date = new Date('2023-07-04');
 
-  @Output() $subscribe: EventEmitter<null> = new EventEmitter<null>();
+  constructor() {}
 
   subscribe(): void {
-    this.$subscribe.emit();
+    window.location.href =
+      'https://sistemas.unifesp.br/acad/proec-siex/index.php?page=INS&acao=2&code=23796';
   }
 }

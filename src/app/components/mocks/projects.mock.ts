@@ -17,31 +17,17 @@ export const projectCardMock: ProjectCard = {
 
 export const projects: ProjectCard[] = [
   {
-    ...projectCardMock,
-    title: 'Projeto 1',
-  },
-  {
-    ...projectCardMock,
-    title: 'Projeto 2',
-  },
-  {
-    ...projectCardMock,
-    title: 'Projeto 3',
-  },
-  {
-    ...projectCardMock,
-    title: 'Projeto 4',
-  },
-  {
-    ...projectCardMock,
-    title: 'Projeto 5',
-  },
-  {
-    ...projectCardMock,
-    title: 'Projeto 6',
-  },
-  {
-    ...projectCardMock,
-    title: 'Projeto 7',
+    imageUrl:
+      'https://storage.googleapis.com/kaggle-datasets-images/854710/1457725/8c5784908d2d3cd58f5ce42115be1bf0/dataset-card.png?t=2020-09-02-06-59-59',
+    title:
+      'Illuminating Artistic Intuition: Exploring Zero-Shot Image Classification and Explainable AI through Diffusion Models and the LIME Algorithm',
+    summary:
+      'Um estudo sobre a classificação de imagens de pinturas usando dados artificialmente gerados e a rede neural EfficientNet. O objetivo é classificar pinturas por artista, utilizando modelos treinados exclusivamente em dados gerados por IA. O estudo também inclui áreas de explainable AI, dando luz a o que faz uma pintura ser classificada como tal.',
+    authors: [
+      {
+        name: 'Leonardo Loureiro Costa',
+        socialUrl: 'https://github.com/Leonardo-Costa',
+      },
+    ],
   },
 ];

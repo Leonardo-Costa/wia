@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { ProjectCard } from 'src/app/interfaces/interface';
 
 @Component({
@@ -8,4 +8,16 @@ import { ProjectCard } from 'src/app/interfaces/interface';
 })
 export class ProjectCardComponent {
   @Input() cardData!: ProjectCard;
+  @Output() onAuthorSocialLink$: EventEmitter<string> =
+    new EventEmitter<string>();
+
+  getAuthorName(fullName: string): string {
+    return fullName.split(' ')?.[0];
+  }
+
+  goToAuthorSocialLink(socialUrl: string | undefined): void {
+    if (!!socialUrl) {
+      this.onAuthorSocialLink$.emit(socialUrl);
+    }
+  }
 }
