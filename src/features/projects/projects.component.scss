@@ -56,4 +56,119 @@
     color: #ffffff;
     font-size: 18px;
   }
+
+  &__modal-container {
+    display: flex;
+    backdrop-filter: blur(10px);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  &__modal {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary);
+    padding: 30px;
+    border-radius: 10px;
+    width: 75%;
+    height: 65%;
+    box-shadow: rgba(0, 0, 0, 0.425) 0px 0px 64px;
+  }
+
+  &__modal-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+  }
+
+  &__modal-image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+  }
+
+  &__modal-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__modal-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding-left: 20px;
+  }
+
+  &__modal-title {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  &__modal-summary {
+    color: white;
+    font-size: 12px;
+  }
+
+  &__options {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  &__close-button {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    transition: 0.2s;
+
+    &:hover {
+      transition: 0.2s;
+      cursor: pointer;
+      scale: 1.3;
+    }
+  }
+
+  &__tags {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-end;
+  }
+
+  &__tag {
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 3px 10px;
+    white-space: nowrap;
+    font-size: 12px;
+  }
+
+  &__authors {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  &__author {
+    color: white;
+    font-weight: normal;
+    font-size: 12px;
+    padding-top: 3px;
+  }
 }

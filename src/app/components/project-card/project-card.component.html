@@ -1,4 +1,4 @@
-<div class="project-card">
+<div class="project-card" (click)="openModal()">
   <div class="project-card__content">
     <div class="project-card__image-container">
       <img [src]="cardData.imageUrl" alt="" class="project-card__image" />
@@ -6,16 +6,15 @@
     <div class="project-card__title">{{ cardData.title }}</div>
     <div class="project-card__summary">{{ cardData.summary }}</div>
   </div>
-  <div class="project-card__authors">
-    <div *ngFor="let author of cardData?.authors">
-      <button
-        class="project-card__author"
-        (click)="
-          goToAuthorSocialLink(!!author?.socialUrl ? author.socialUrl : '')
-        "
-      >
-        {{ getAuthorName(!!author?.name ? author.name : "") }}
+  <div class="project-card__tags">
+    <div *ngFor="let tag of cardData?.keyWords">
+      <button class="project-card__tag">
+        {{ tag }}
       </button>
     </div>
   </div>
+</div>
+
+<div class="project-card__modal-container">
+  <div class="project-card__modal"></div>
 </div>

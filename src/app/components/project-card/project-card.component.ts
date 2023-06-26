@@ -8,8 +8,10 @@ import { ProjectCard } from 'src/app/interfaces/interface';
 })
 export class ProjectCardComponent {
   @Input() cardData!: ProjectCard;
-  @Output() onAuthorSocialLink$: EventEmitter<string> =
+  @Output() $onAuthorSocialLink: EventEmitter<string> =
     new EventEmitter<string>();
+  @Output() $openModal: EventEmitter<ProjectCard> =
+    new EventEmitter<ProjectCard>();
 
   getAuthorName(fullName: string): string {
     return fullName.split(' ')?.[0];
@@ -17,7 +19,11 @@ export class ProjectCardComponent {
 
   goToAuthorSocialLink(socialUrl: string | undefined): void {
     if (!!socialUrl) {
-      this.onAuthorSocialLink$.emit(socialUrl);
+      this.$onAuthorSocialLink.emit(socialUrl);
     }
+  }
+
+  openModal(): void {
+    this.$openModal.emit(this.cardData);
   }
 }

@@ -11,8 +11,48 @@
         class="projects__project-card"
         *ngFor="let projectCard of projectCards"
       >
-        <app-project-card [cardData]="projectCard"></app-project-card>
+        <app-project-card
+          [cardData]="projectCard"
+          ($openModal)="onOpenModal($event)"
+        ></app-project-card>
       </div>
     </div>
   </section>
+</div>
+
+<div class="projects__modal-container" *ngIf="modalIsOpen">
+  <div class="projects__modal">
+    <div class="projects__options">
+      <div (click)="onCloseModal()" class="projects__close-button">X</div>
+    </div>
+    <div class="projects__modal-content">
+      <div class="projects__modal-image-container">
+        <div class="projects__modal-image">
+          <img [src]="modalContent?.imageUrl" width="300" height="300" />
+        </div>
+      </div>
+
+      <div class="projects__modal-texts">
+        <div>
+          <div class="projects__modal-title">{{ modalContent?.title }}</div>
+          <div class="projects__modal-summary">{{ modalContent?.summary }}</div>
+        </div>
+        <div class="projects__authors">
+          Autores:
+          <div
+            class="projects__author"
+            *ngFor="let author of modalContent?.authors"
+          >
+            {{ author.authorName }}
+          </div>
+        </div>
+
+        <div class="projects__tags">
+          <div *ngFor="let tag of modalContent?.keyWords">
+            <div class="projects__tag">{{ tag }}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

@@ -9,4 +9,15 @@ import { ProjectCard } from 'src/app/interfaces/interface';
 })
 export class ProjectsComponent {
   projectCards: ProjectCard[] = projects;
+  modalIsOpen: boolean = false;
+  modalContent!: ProjectCard;
+
+  onOpenModal(event: ProjectCard): void {
+    this.modalContent = event;
+    this.modalIsOpen = true;
+  }
+
+  onCloseModal(): void {
+    this.modalIsOpen = false;
+  }
 }

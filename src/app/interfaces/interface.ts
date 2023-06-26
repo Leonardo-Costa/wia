@@ -2,11 +2,12 @@ export interface ProjectCard {
   imageUrl: string;
   title: string;
   summary: string;
-  link?: string;
+  projectRepoUrl?: string;
   authors: Author[];
+  keyWords: string[];
 }
 
 export interface Author {
-  name: string;
+  authorName: string;
   socialUrl?: string;
 }
