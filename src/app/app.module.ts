@@ -12,6 +12,7 @@ import { HomeComponent } from 'src/features/home/home.component';
 import { ContactComponent } from 'src/features/contact/contact.component';
 import { ProjectCardComponent } from './components/project-card/project-card.component';
 import { ProjectsComponent } from 'src/features/projects/projects.component';
+import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,7 @@ import { ProjectsComponent } from 'src/features/projects/projects.component';
     BrowserAnimationsModule,
     CommonModule,
   ],
-  providers: [],
+  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
