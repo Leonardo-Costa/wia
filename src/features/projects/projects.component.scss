@@ -70,21 +70,39 @@
   }
 
   &__modal {
+    /* Existing styles */
+    box-shadow: rgba(0, 0, 0, 0.39) 0px 0px 24px;
+    background-color: var(--primary);
     display: flex;
     flex-direction: column;
-    background-color: var(--primary);
-    padding: 30px;
+    overflow-x: hidden; /* Disable horizontal scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: 65%; /* Set a maximum height for the div */
+    padding: 15px;
+    padding-bottom: 25px;
+    padding-top: 0;
     border-radius: 10px;
-    width: 75%;
-    height: 65%;
-    box-shadow: rgba(0, 0, 0, 0.425) 0px 0px 64px;
+    width: 85%;
+
+    @media (min-width: 768px) {
+      width: 75%;
+      padding: 30px;
+      padding-top: 0;
+      max-height: none;
+      height: 65%;
+    }
   }
 
   &__modal-content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     height: 100%;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      align-items: center;
+    }
   }
 
   &__modal-image-container {
@@ -109,7 +127,11 @@
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    padding-left: 20px;
+    row-gap: 10px;
+
+    @media (min-width: 768px) {
+      padding-left: 20px;
+    }
   }
 
   &__modal-title {
@@ -127,9 +149,14 @@
   &__options {
     display: flex;
     flex-direction: row-reverse;
+    position: sticky;
+    top: 0;
+    background-color: var(--primary); /* Add a background color if needed */
+    z-index: 1; /* Ensure the options are displayed above the content */
   }
 
   &__close-button {
+    padding: 10px;
     color: white;
     font-size: 24px;
     font-weight: bold;
