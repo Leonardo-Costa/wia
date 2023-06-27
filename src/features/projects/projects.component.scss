@@ -147,9 +147,9 @@
   }
 
   &__options {
-    padding-top: 15px;
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-between;
     position: sticky;
     top: 0;
     background-color: var(--primary); /* Add a background color if needed */
@@ -198,5 +198,14 @@
     font-weight: normal;
     font-size: 12px;
     padding-top: 3px;
+  }
+
+  &__access-project {
+    font-size: 18px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
   }
 }

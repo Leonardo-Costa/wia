@@ -24,6 +24,9 @@
   <div class="projects__modal">
     <div class="projects__options">
       <div (click)="onCloseModal()" class="projects__close-button">X</div>
+      <a class="projects__access-project" [href]="modalContent?.projectRepoUrl"
+        >Acessar projeto</a
+      >
     </div>
     <div class="projects__modal-content">
       <div class="projects__modal-image-container">
@@ -39,12 +42,15 @@
         </div>
         <div class="projects__authors">
           Autores:
-          <div
+          <a
             class="projects__author"
             *ngFor="let author of modalContent?.authors"
+            [href]="author.socialUrl"
           >
-            {{ author.authorName }}
-          </div>
+            <div class="projects__author">
+              {{ author.authorName }}
+            </div>
+          </a>
         </div>
 
         <div class="projects__tags">

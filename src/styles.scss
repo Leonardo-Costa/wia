@@ -15,3 +15,18 @@
 * {
   font-family: "GothamMedium_1", sans-serif;
 }
+
+/* Hide the default scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--primary-dark);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white;
+}
