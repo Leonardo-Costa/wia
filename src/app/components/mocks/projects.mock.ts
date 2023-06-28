@@ -8,7 +8,8 @@ export const projects: ProjectCard[] = [
         socialUrl: 'https://github.com/Leonardo-Costa',
       },
     ],
-    imageUrl: '',
+    imageUrl:
+      'https://drive.google.com/uc?export=view&id=122hfADJaMxnpiFcgOnzRfSMiCGd7A4yh',
     title:
       'Illuminating Artistic Intuition: Exploring Zero-Shot Image Classification and Explainable AI through Diffusion Models and the LIME Algorithm',
     summary:
@@ -163,7 +164,7 @@ export const projects: ProjectCard[] = [
       },
     ],
     imageUrl:
-      'https://drive.google.com/uc?export=view&id=1nK31WmUa0Rv7ODTTOgh2aRpfotxZojQY',
+      'https://drive.google.com/uc?export=view&id=1asyQFS6dq1kixIZFIpwjJZwxTbcrT1nU',
     title:
       'Visão computacional na estimativa da distância e altura de pessoas em cenas',
     summary:
@@ -355,7 +356,7 @@ export const projects: ProjectCard[] = [
       },
     ],
     imageUrl:
-      'https://drive.google.com/uc?export=view&id=1tSA8Y1wvOc5rH0RppnBCD0tZbUNDReDI',
+      'https://drive.google.com/uc?export=view&id=12ke6SLaZPuyHAdNXMFzs6y67SjQ_FOsF',
     title:
       'Aprendizado de Máquina para Diagnóstico e Classificação da Doença de Alzheimer',
     summary:
@@ -423,5 +424,241 @@ export const projects: ProjectCard[] = [
     summary:
       'Geração de descrição de quadrantes da obra de arte, bem como um resumo, a partir de um algoritmo de geração de descrições utilizando um modelo de inteligência artificial pré-treinado para deficientes visuais conseguirem entender o que está presente na obra.',
     keyWords: ['inteligência artificial', 'obra de arte', 'deficiência visual'],
+  },
+  {
+    authors: [
+      {
+        authorName: 'Matheus de Sousa Meire da Silva',
+        socialUrl: 'https://github.com/matheuxito/',
+      },
+      {
+        authorName: 'Marcos Lucas da Silva',
+        socialUrl: 'https://github.com/lmarcosz/',
+      },
+    ],
+    imageUrl:
+      'https://drive.google.com/uc?export=view&id=1020jvPHL72jjAN00TowwQAff0EBO5r5k',
+    title:
+      'Identificação de Veículos em Estacionamentos: Uma Abordagem Comparativa Entre Modelos YOLO',
+    summary:
+      'O projeto consiste em uma aplicação do YOLO (um método de detecção de objetos em imagens) em um sistema de identificação e contabilização de vagas e veículos no estacionamento do ICT-Unifesp. Além disso, será feita uma abordagem comparativa de eficiência do uso de diferentes versões do modelo YOLO nesse sistema.',
+    keyWords: ['YOLO', 'Veículos', 'Estacionamentos', 'Inovação'],
+  },
+  {
+    authors: [
+      {
+        authorName: 'Isabela Cristina Silva Pedro',
+        socialUrl: 'https://www.linkedin.com/in/isabela-cristina/',
+      },
+      {
+        authorName: 'Nicolas Alves Suzuki',
+        socialUrl: 'https://www.linkedin.com/in/nicolas-alves-suzuki/',
+      },
+    ],
+    imageUrl: '',
+    title:
+      'Sinais da Libras para Áudio: primeiros passos de uma ferramenta inovadora',
+    summary:
+      'O estudo consiste em um sistema para receber sinais da Libras por meio da conexão com uma webcam e convertê-los em áudio em português das respectivas palavras e frases. Dessa forma, o artigo tem como objetivo fomentar o aumento das pesquisas em machine learning aplicada à linguagem de sinais, com ênfase na interação entre pessoas surdas e mudas.',
+    keyWords: [
+      'Libras',
+      'machine learning',
+      'CNN',
+      'linguagem de sinais',
+      'interação',
+    ],
+  },
+  {
+    authors: [
+      {
+        authorName: 'Vinícius da Silva Dias',
+        socialUrl: 'https://github.com/weinStag',
+      },
+      {
+        authorName: 'Mateus da Silva Romani',
+        socialUrl: '',
+      },
+    ],
+    imageUrl:
+      'https://drive.google.com/uc?export=view&id=1ckJcichkF45qHS6Pst7GSj1diEHdvMsq',
+    title:
+      'Redes Neurais e Deep Learning no escopo econômico de colecionáveis digitais',
+    summary:
+      'Atualmente a indústria de jogos eletrônicos competitivos vem crescendo de maneira exponencial, e como esperado, o mesmo acontece com seus mercados externos e internos, desde venda de colecionáveis e cosméticos à campeonatos profissionais que movimentam um mercado milionário anualmente. Contudo, há uma lacuna no aproveitamento da grande gama de dados gerada pelo mercado em constante expansão, portanto com uma Rede Neural treinada em deep learning, seria possível analisar um conjunto de dados com características dos cosméticos, como raridade, popularidade e desgaste, e utilizá-las para prevermos valores do mercado referentes aos itens e suas características. Isso portanto permitiria aos usuários tomarem decisões mais informadas tanto ao comprar, vender ou trocar em sua coleção, maximizando assim os lucros e minimizando os riscos.',
+    keyWords: [
+      'Rede Neural',
+      'Deep Learning',
+      'Predição',
+      'Mercado Digital',
+      'Colecionáveis Digitais',
+    ],
+  },
+  {
+    authors: [
+      {
+        authorName: 'Kazuhiro Kojio',
+        socialUrl: 'https://www.linkedin.com/in/kazuhirodk/',
+      },
+    ],
+    imageUrl:
+      'https://drive.google.com/uc?export=view&id=1Z-CQzET0lpgLNHLjm4y5OMspLWQAO9Sq',
+    title:
+      'Mineração de dados educacionais para identificar a influência de fatores socioeconômicos no desempenho dos estudantes no ENEM',
+    summary:
+      'A mineração de dados educacionais é uma ferramenta de extrema importância e pode auxiliar governos no desenvolvimento de políticas públicas efetivas na área da educação. No Brasil, uma rica fonte de informações na área de educação são os microdados do Exame Nacional do Ensino Médio (ENEM), disponibilizados anualmente, que contém diversas informações dos candidatos. Portanto, este trabalho explora o processo do KDD (Knowledge Discovery in Databases) para extrair conhecimentos a partir dos dados do ENEM. Utilizou-se o algoritmo Apriori para extrair regras que associam os fatores socioeconômicos com o desempenho dos candidatos. A análise foi feita utilizando os dados do ENEM entre os anos de 2019 a 2022, o que possibilitou verificar quais regras persistiram em todos estes anos. Assim, este trabalho identifica quais fatores socioeconômicos desempenham grande influência no desempenho dos candidatos.',
+    keyWords: [
+      'mineração',
+      'dados',
+      'KDD',
+      'associação',
+      'fatores socioeconômicos',
+      'ENEM',
+    ],
+  },
+  {
+    authors: [
+      {
+        authorName: 'Vinícius Massaru Oliveira Tanaka',
+        socialUrl: 'https://www.linkedin.com/in/vinicius-tanaka-67460b166/',
+      },
+    ],
+    imageUrl:
+      'https://drive.google.com/uc?export=view&id=1BAv4DVTHqt5J_wo8hbHPe80f-wqInZWA',
+    title:
+      'SmileDataAI: segmentação semântica de dentes em imagens de raio-x por meio de aprendizado profundo',
+    summary:
+      'A segmentação semântica por meio de aprendizado profundo é uma área em crescimento no processamento de imagens. Neste contexto, a odontologia se beneficia significativamente ao explorar o poder do processamento de imagens aliado ao uso de técnicas de aprendizado profundo. Este artigo apresenta uma abordagem de segmentação semântica baseada no modelo HRNet, aplicada a imagens radiográficas odontológicas. O objetivo principal é desenvolver um modelo de rede neural capaz de gerar máscaras nas imagens de raio-x, visando a classificação precisa de cada dente. Ao combinar as capacidades de segmentação semântica e aprendizado profundo, espera-se melhorar o diagnóstico odontológico, fornecendo informações valiosas para a tomada de decisões clínicas e personalizando o tratamento odontológico.',
+    keyWords: [
+      'Segmentação Semântica',
+      'Aprendizado Profundo',
+      'Odontologia',
+      'HRNet',
+      'Diagnóstico Odontológico',
+    ],
+  },
+  {
+    authors: [
+      {
+        authorName: 'Guilherme Salgado Alves',
+        socialUrl:
+          'https://www.linkedin.com/in/guilherme-salgado-alves-1b3653182/',
+      },
+    ],
+    imageUrl:
+      'https://drive.google.com/uc?export=view&id=1C7wwL-KOikRPEhdukH7ID4FlTFZLO-m0',
+    title:
+      'Perfil Invest, utilização de técnicas de agrupamento para definição de ações para estudo de acordo com perfil de investidor',
+    summary:
+      'O mercado financeiro consiste na alocação de ativos entre as diversas opções de produtos oferecidos por bancos e corretoras. Considerando a imensa diversidade de opções, a melhor e talvez única possibilidade de ser bem-sucedido no mercado é estar corretamente alinhado com seus próprios objetivos. Com base nesta demanda que existem os perfis de investidores do mercado financeiro. O objetivo deste trabalho é fazer com que os investidores pessoa física possam estudar ações presentes no mercado de capitais brasileiro de maneira direcionada, com base em seu próprio perfil de investidor, com suas respectivas aversões a risco, tolerâncias a volatilidade, entre outros. Para isso, serão utilizadas técnicas de agrupamento presentes nas literaturas da inteligência artificial, para que possam selecionar e agrupar por afinidade determinados grupos de ações, para que investidores menos experientes possam mergulhar em estudos previamente analisados, e saibam o tipo de informação e ativos que estão lidando. Não se trata de recomendação de compra ou de venda de nenhum ativo, mas sim da pré-seleção de ações de acordo com determinados perfis de investidor, para que se possa haver um estudo guiado.',
+    keyWords: ['perfil de investidor', 'ações', 'agrupamento'],
+  },
+  {
+    authors: [
+      {
+        authorName: 'Francine Gonçalves Franco',
+        socialUrl: 'https://github.com/francinefranco',
+      },
+    ],
+    imageUrl:
+      'https://drive.google.com/uc?export=view&id=1NGNQD8Gr1VIW50CagazVhDsU2a6xDF1Y',
+    title:
+      'ContaAI: Uma IA para a produção de textos literários assistida por computador',
+    summary:
+      'O projeto visa desenvolver um modelo de IA que atue na produção de textos literários. O modelo terá a função de auxiliar ou criar textos literários para diferentes propósitos, como fornecer inspiração para autores em suas obras ou desenvolver histórias para jogos, entre outras necessidades.',
+    keyWords: [
+      'Inteligência Artificial',
+      'textos literários',
+      'linguagem natural',
+    ],
+  },
+  {
+    authors: [
+      {
+        authorName: 'Leonardo Silva Pinto',
+        socialUrl: '',
+      },
+      {
+        authorName: 'Maria Paula Henriques Prandt',
+        socialUrl: '',
+      },
+    ],
+    imageUrl:
+      'https://drive.google.com/uc?export=view&id=1z_YFsmKGtaLmQwkF15EvlXC2tdJcxJtA',
+    title:
+      'A Inteligência Artificial aplicada para o estudo da mortalidade infantil e sua relação com o saneamento básico no Brasil',
+    summary:
+      'A Taxa de Mortalidade Infantil é um indicador que mensura a proporção de mortes de crianças antes de um ano. Nesse contexto, o presente trabalho busca aplicar técnicas de Inteligência Artificial, principalmente regressão, para analisar quais fatores socioeconômicos influenciam mais o crescimento dessa taxa em comparação com outros. Diante disso, pode-se tirar conclusões acerca de quais fatores econômicos, educacionais e sanitários podem ser usados para melhor predizer a TMI dos municípios brasileiros.',
+    keyWords: [
+      'mortalidade infantil',
+      'inteligência artificial',
+      'árvore de decisão',
+      'regressão',
+      'saneamento básico',
+    ],
+  },
+  {
+    authors: [
+      {
+        authorName: 'Felipe Fernandes',
+        socialUrl: '',
+      },
+      {
+        authorName: 'Henrique Dedini',
+        socialUrl: '',
+      },
+    ],
+    imageUrl:
+      'https://drive.google.com/uc?export=view&id=1TlS1Hc0_rgA0TYda4qGjVlURfFtbh7bu',
+    title:
+      'O Algoritmo de Naive Bayes, a Classificação e a comparação com outros algoritmos probabilísticos',
+    summary:
+      'O projeto em questão visa apresentar o conceito de algoritmos probabilísticos, usando como foco o algoritmo de Naive Bayes e a comparação deste com os demais métodos, apresentando suas variações e aplicações no mundo real.',
+    keyWords: [
+      'aprendizado',
+      'algoritmos',
+      'técnica',
+      'classificação',
+      'supervisão',
+    ],
+  },
+  {
+    authors: [
+      {
+        authorName: 'Lécio Oliveira Gonçalves de Assis',
+        socialUrl: 'https://www.linkedin.com/in/lecioassis/',
+      },
+    ],
+    imageUrl:
+      'https://drive.google.com/uc?export=view&id=1HxAQl5L4O2nJoHcR_zCl4B8kJjclzodO',
+    title:
+      'Recomendação Musical Em Tempo Real: Algoritmo Contextualizado Para Personalização De Listas De Reprodução',
+    summary:
+      'O projeto visa romper com a abordagem atual de aleatoriedade aparente e criar uma nova forma de ordenação de músicas, levando em consideração critérios como histórico de reprodução, músicas recentemente ouvidas, contexto audiovisual e popularidade. A implementação será feita em Python, utilizando a API do Spotify e bibliotecas de interpretação de áudio e som.',
+    projectRepoUrl: 'https://github.com/lecioassis/AIproject',
+    keyWords: [
+      'Regras de Associação',
+      'Sistema de Recomendação Musical',
+      'Plataformas de Streaming',
+      'Listas de Reprodução',
+    ],
+  },
+  {
+    authors: [
+      {
+        authorName: 'Gabriel Hiro Guedes Kobayakawa Fornel',
+        socialUrl: 'https://www.linkedin.com/in/gabriel-hiroxd-249965279',
+      },
+      {
+        authorName: 'Guilherme de Oliveira Sousa',
+        socialUrl:
+          'https://www.linkedin.com/in/guilherme-de-oliveira-sousa-370233260/',
+      },
+    ],
+    imageUrl: '',
+    title:
+      'O aprendizado de máquina aplicado na compreensão da resposta de pacientes com artrite reumatoide tratados com anti-TNF',
+    summary:
+      'Diversas doenças inflamatórias autoimunes são tratadas com inibidores de TNF (uma importante citocina envolvida em diversos distúrbios imunológicos). Utilizando do aprendizado de máquina, o presente projeto pretende encontrar grupos de genes que sirvam como biomarcadores ao tratamento com anti-TNF. Isto é, grupos de genes que sinalizem, dentro de uma margem de erro satisfatória, uma resposta positiva ao tratamento (ou, até mesmo grupos de genes que sinalizem uma provável resposta negativa ao tratamento) com anti-TNF’s. A abordagem escolhida é baseada na transformação de dados não imagéticos em dados do tipo imagem imagens (ou seja, compostos por pixels), para que estratégias de deeplearning em imagens possam ser aplicadas em dados biológicos não imagéticos - neste caso, a expressão genética de pacientes acometidos com artrite reumatoide.',
+    keyWords: ['Anti-TNF', 'Imunologia', 'VisionTransformers', 'DeepInsight'],
   },
 ];
