@@ -152,6 +152,7 @@
     justify-content: space-between;
     position: sticky;
     top: 0;
+    padding-top: 10px;
     background-color: var(--primary); /* Add a background color if needed */
     z-index: 1; /* Ensure the options are displayed above the content */
   }
@@ -176,6 +177,7 @@
     flex-direction: row;
     gap: 10px;
     align-items: flex-end;
+    padding-bottom: 40px;
   }
 
   &__tag {

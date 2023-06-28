@@ -444,30 +444,30 @@ export const projects: ProjectCard[] = [
       'O projeto consiste em uma aplicação do YOLO (um método de detecção de objetos em imagens) em um sistema de identificação e contabilização de vagas e veículos no estacionamento do ICT-Unifesp. Além disso, será feita uma abordagem comparativa de eficiência do uso de diferentes versões do modelo YOLO nesse sistema.',
     keyWords: ['YOLO', 'Veículos', 'Estacionamentos', 'Inovação'],
   },
-  {
-    authors: [
-      {
-        authorName: 'Isabela Cristina Silva Pedro',
-        socialUrl: 'https://www.linkedin.com/in/isabela-cristina/',
-      },
-      {
-        authorName: 'Nicolas Alves Suzuki',
-        socialUrl: 'https://www.linkedin.com/in/nicolas-alves-suzuki/',
-      },
-    ],
-    imageUrl: '',
-    title:
-      'Sinais da Libras para Áudio: primeiros passos de uma ferramenta inovadora',
-    summary:
-      'O estudo consiste em um sistema para receber sinais da Libras por meio da conexão com uma webcam e convertê-los em áudio em português das respectivas palavras e frases. Dessa forma, o artigo tem como objetivo fomentar o aumento das pesquisas em machine learning aplicada à linguagem de sinais, com ênfase na interação entre pessoas surdas e mudas.',
-    keyWords: [
-      'Libras',
-      'machine learning',
-      'CNN',
-      'linguagem de sinais',
-      'interação',
-    ],
-  },
+  // {
+  //   authors: [
+  //     {
+  //       authorName: 'Isabela Cristina Silva Pedro',
+  //       socialUrl: 'https://www.linkedin.com/in/isabela-cristina/',
+  //     },
+  //     {
+  //       authorName: 'Nicolas Alves Suzuki',
+  //       socialUrl: 'https://www.linkedin.com/in/nicolas-alves-suzuki/',
+  //     },
+  //   ],
+  //   imageUrl: '',
+  //   title:
+  //     'Sinais da Libras para Áudio: primeiros passos de uma ferramenta inovadora',
+  //   summary:
+  //     'O estudo consiste em um sistema para receber sinais da Libras por meio da conexão com uma webcam e convertê-los em áudio em português das respectivas palavras e frases. Dessa forma, o artigo tem como objetivo fomentar o aumento das pesquisas em machine learning aplicada à linguagem de sinais, com ênfase na interação entre pessoas surdas e mudas.',
+  //   keyWords: [
+  //     'Libras',
+  //     'machine learning',
+  //     'CNN',
+  //     'linguagem de sinais',
+  //     'interação',
+  //   ],
+  // },
   {
     authors: [
       {
@@ -536,22 +536,22 @@ export const projects: ProjectCard[] = [
       'Diagnóstico Odontológico',
     ],
   },
-  {
-    authors: [
-      {
-        authorName: 'Guilherme Salgado Alves',
-        socialUrl:
-          'https://www.linkedin.com/in/guilherme-salgado-alves-1b3653182/',
-      },
-    ],
-    imageUrl:
-      'https://drive.google.com/uc?export=view&id=1C7wwL-KOikRPEhdukH7ID4FlTFZLO-m0',
-    title:
-      'Perfil Invest, utilização de técnicas de agrupamento para definição de ações para estudo de acordo com perfil de investidor',
-    summary:
-      'O mercado financeiro consiste na alocação de ativos entre as diversas opções de produtos oferecidos por bancos e corretoras. Considerando a imensa diversidade de opções, a melhor e talvez única possibilidade de ser bem-sucedido no mercado é estar corretamente alinhado com seus próprios objetivos. Com base nesta demanda que existem os perfis de investidores do mercado financeiro. O objetivo deste trabalho é fazer com que os investidores pessoa física possam estudar ações presentes no mercado de capitais brasileiro de maneira direcionada, com base em seu próprio perfil de investidor, com suas respectivas aversões a risco, tolerâncias a volatilidade, entre outros. Para isso, serão utilizadas técnicas de agrupamento presentes nas literaturas da inteligência artificial, para que possam selecionar e agrupar por afinidade determinados grupos de ações, para que investidores menos experientes possam mergulhar em estudos previamente analisados, e saibam o tipo de informação e ativos que estão lidando. Não se trata de recomendação de compra ou de venda de nenhum ativo, mas sim da pré-seleção de ações de acordo com determinados perfis de investidor, para que se possa haver um estudo guiado.',
-    keyWords: ['perfil de investidor', 'ações', 'agrupamento'],
-  },
+  // {
+  //   authors: [
+  //     {
+  //       authorName: 'Guilherme Salgado Alves',
+  //       socialUrl:
+  //         'https://www.linkedin.com/in/guilherme-salgado-alves-1b3653182/',
+  //     },
+  //   ],
+  //   imageUrl:
+  //     'https://drive.google.com/uc?export=view&id=1C7wwL-KOikRPEhdukH7ID4FlTFZLO-m0',
+  //   title:
+  //     'Perfil Invest, utilização de técnicas de agrupamento para definição de ações para estudo de acordo com perfil de investidor',
+  //   summary:
+  //     'O mercado financeiro consiste na alocação de ativos entre as diversas opções de produtos oferecidos por bancos e corretoras. Considerando a imensa diversidade de opções, a melhor e talvez única possibilidade de ser bem-sucedido no mercado é estar corretamente alinhado com seus próprios objetivos. Com base nesta demanda que existem os perfis de investidores do mercado financeiro. O objetivo deste trabalho é fazer com que os investidores pessoa física possam estudar ações presentes no mercado de capitais brasileiro de maneira direcionada, com base em seu próprio perfil de investidor, com suas respectivas aversões a risco, tolerâncias a volatilidade, entre outros. Para isso, serão utilizadas técnicas de agrupamento presentes nas literaturas da inteligência artificial, para que possam selecionar e agrupar por afinidade determinados grupos de ações, para que investidores menos experientes possam mergulhar em estudos previamente analisados, e saibam o tipo de informação e ativos que estão lidando. Não se trata de recomendação de compra ou de venda de nenhum ativo, mas sim da pré-seleção de ações de acordo com determinados perfis de investidor, para que se possa haver um estudo guiado.',
+  //   keyWords: ['perfil de investidor', 'ações', 'agrupamento'],
+  // },
   {
     authors: [
       {
@@ -642,23 +642,23 @@ export const projects: ProjectCard[] = [
       'Listas de Reprodução',
     ],
   },
-  {
-    authors: [
-      {
-        authorName: 'Gabriel Hiro Guedes Kobayakawa Fornel',
-        socialUrl: 'https://www.linkedin.com/in/gabriel-hiroxd-249965279',
-      },
-      {
-        authorName: 'Guilherme de Oliveira Sousa',
-        socialUrl:
-          'https://www.linkedin.com/in/guilherme-de-oliveira-sousa-370233260/',
-      },
-    ],
-    imageUrl: '',
-    title:
-      'O aprendizado de máquina aplicado na compreensão da resposta de pacientes com artrite reumatoide tratados com anti-TNF',
-    summary:
-      'Diversas doenças inflamatórias autoimunes são tratadas com inibidores de TNF (uma importante citocina envolvida em diversos distúrbios imunológicos). Utilizando do aprendizado de máquina, o presente projeto pretende encontrar grupos de genes que sirvam como biomarcadores ao tratamento com anti-TNF. Isto é, grupos de genes que sinalizem, dentro de uma margem de erro satisfatória, uma resposta positiva ao tratamento (ou, até mesmo grupos de genes que sinalizem uma provável resposta negativa ao tratamento) com anti-TNF’s. A abordagem escolhida é baseada na transformação de dados não imagéticos em dados do tipo imagem imagens (ou seja, compostos por pixels), para que estratégias de deeplearning em imagens possam ser aplicadas em dados biológicos não imagéticos - neste caso, a expressão genética de pacientes acometidos com artrite reumatoide.',
-    keyWords: ['Anti-TNF', 'Imunologia', 'VisionTransformers', 'DeepInsight'],
-  },
+  // {
+  //   authors: [
+  //     {
+  //       authorName: 'Gabriel Hiro Guedes Kobayakawa Fornel',
+  //       socialUrl: 'https://www.linkedin.com/in/gabriel-hiroxd-249965279',
+  //     },
+  //     {
+  //       authorName: 'Guilherme de Oliveira Sousa',
+  //       socialUrl:
+  //         'https://www.linkedin.com/in/guilherme-de-oliveira-sousa-370233260/',
+  //     },
+  //   ],
+  //   imageUrl: '',
+  //   title:
+  //     'O aprendizado de máquina aplicado na compreensão da resposta de pacientes com artrite reumatoide tratados com anti-TNF',
+  //   summary:
+  //     'Diversas doenças inflamatórias autoimunes são tratadas com inibidores de TNF (uma importante citocina envolvida em diversos distúrbios imunológicos). Utilizando do aprendizado de máquina, o presente projeto pretende encontrar grupos de genes que sirvam como biomarcadores ao tratamento com anti-TNF. Isto é, grupos de genes que sinalizem, dentro de uma margem de erro satisfatória, uma resposta positiva ao tratamento (ou, até mesmo grupos de genes que sinalizem uma provável resposta negativa ao tratamento) com anti-TNF’s. A abordagem escolhida é baseada na transformação de dados não imagéticos em dados do tipo imagem imagens (ou seja, compostos por pixels), para que estratégias de deeplearning em imagens possam ser aplicadas em dados biológicos não imagéticos - neste caso, a expressão genética de pacientes acometidos com artrite reumatoide.',
+  //   keyWords: ['Anti-TNF', 'Imunologia', 'VisionTransformers', 'DeepInsight'],
+  // },
 ];
