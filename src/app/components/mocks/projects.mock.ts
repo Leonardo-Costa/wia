@@ -661,4 +661,105 @@ export const projects: ProjectCard[] = [
   //     'Diversas doenças inflamatórias autoimunes são tratadas com inibidores de TNF (uma importante citocina envolvida em diversos distúrbios imunológicos). Utilizando do aprendizado de máquina, o presente projeto pretende encontrar grupos de genes que sirvam como biomarcadores ao tratamento com anti-TNF. Isto é, grupos de genes que sinalizem, dentro de uma margem de erro satisfatória, uma resposta positiva ao tratamento (ou, até mesmo grupos de genes que sinalizem uma provável resposta negativa ao tratamento) com anti-TNF’s. A abordagem escolhida é baseada na transformação de dados não imagéticos em dados do tipo imagem imagens (ou seja, compostos por pixels), para que estratégias de deeplearning em imagens possam ser aplicadas em dados biológicos não imagéticos - neste caso, a expressão genética de pacientes acometidos com artrite reumatoide.',
   //   keyWords: ['Anti-TNF', 'Imunologia', 'VisionTransformers', 'DeepInsight'],
   // },
+  {
+    authors: [
+      {
+        authorName: 'Mateus da Silva Romani',
+        socialUrl: 'https://www.linkedin.com/in/mateus-r-29463b138/',
+      },
+      {
+        authorName: 'Mateus da Silva Romani',
+        socialUrl: '',
+      },
+    ],
+    imageUrl: 'https://drive.google.com/uc?export=view&id=1I59kO4Np_vZLamKpF8cWjBFIK7xQGMgZ',
+    title: 'Redes Neurais e Deep Learning no escopo econômico de colecionáveis digitais',
+    summary: "Atualmente a indústria de jogos eletrônicos competitivos vem crescendo de maneira exponencial, e como esperado, o mesmo acontece com seus mercados externos e internos, desde venda de colecionáveis e cosméticos à campeonatos profissionais que movimentam um mercado milionário anualmente. Contudo, há uma lacuna no aproveitamento da grande gama de dados gerada pelo mercado em constante expansão, portanto com uma Rede Neural treinada em deep learning, seria possível analisar um conjunto de dados com características das skins, como raridade, popularidade e desgaste, e utilizá-las para prevermos valores do mercado referentes aos itens e suas características. Isso portanto permitiria aos usuários tomarem decisões mais informadas tanto ao comprar, vender ou trocar suas skins, maximizando assim os lucros e minimizando os riscos.",
+    keyWords: ['Rede Neural', 'Deep Learning', 'Predição', 'Mercado Digital', 'Colecionáveis Digitais'],
+    projectRepoUrl: 'https://www.linkedin.com/in/mateus-r-29463b138/,'
+  },
+  {
+    authors: [
+      {
+        authorName: 'Jamil Anderson Mansur',
+        socialUrl: 'https://www.linkedin.com/in/jamil-mansur/',
+      },
+      {
+        authorName: 'Willy Thiago Gutsche',
+        socialUrl: 'https://www.linkedin.com/in/willy-thiago-gutsche-5b881a233/',
+      },
+    ],
+    imageUrl: 'https://drive.google.com/uc?export=view&id=1ckuGkP-UtrkRjyW1QnaTZD84luIYFwwv',
+    title: 'Reconhecimento de objetos em Imagens: Uma Abordagem de Aprendizado Profundo',
+    summary: 'Temos como objetivo fazer uma análise e comparação entre as principais e mais modernas arquiteturas de deep learning que trabalham com reconhecimento de objetos em imagens, deste a classificação e localização de cada objeto até a segmentação semântica que confere maior precisão. Seu uso é muito amplo, desde Sistemas que utilizam câmeras de segurança equipadas com algoritmos de reconhecimento de objetos e pessoas para monitorar e analisar imagens em tempo real; Sistemas de detecção de incêndio ou queimadas onde é alertado se está ocorrendo um incêndio.',
+    projectRepoUrl: 'https://github.com/GutscheWilly/reconhecimento-objetos',
+    keyWords: [ "Detecção", 'Imagem', 'Segurança', 'Reconhecimento' ],
+  },
+  {
+    authors: [
+      {
+        authorName: 'Rafaela Cristine dos Santos Uchôas',
+        socialUrl: 'linkedin.com/in/rafaelauchoas/',
+      }
+    ],
+    imageUrl: 'https://drive.google.com/uc?export=view&id=1I5GZrpY2OjbnRoxd8paJS9SGaQO6yoij',
+    title: 'Mineração de texto voltada para artigos científicos',
+    summary: 'O projeto consiste no desenvolvimento de uma ferramenta de análise de texto com o objetivo de facilitar a busca e identificação de artigos científicos. Observando as dificuldades enfrentadas na pesquisa e catalogação desses artigos, decorrentes da grande quantidade de documentos dispersos em diferentes bibliotecas digitais, percebe-se a necessidade de encontrar uma solução que agilize o processo de descoberta dos artigos mais relevantes para um determinado trabalho. As palavras-chave nem sempre são eficientes na busca, resultando em uma grande quantidade de documentos que precisam ser analisados manualmente. Nesse contexto, propomos o desenvolvimento de uma ferramenta que simplifica as informações básicas e acelera o processo de interpretação e pesquisa científica extraindo informações de arquivos de texto, focando em artigos científicos. A ferramenta preenche automaticamente os campos essenciais, como Título, Autores, Palavras-chave, Data de publicação, DOI ou identificador único. Os dados são extraídos de um banco de dados de artigos científicos e listados de forma organizada, facilitando a busca e classificação dos mesmos.',
+    projectRepoUrl: 'https://github.com/rafaelauchoas/textminingWIA',
+    keyWords: ["Mineração de texto", 'Artigos Científicos', 'Análise de Artigos'],
+  },
+  {
+    authors: [
+      {
+        authorName: 'Luca de Paula Nascimento Lima',
+        socialUrl: '',
+      },
+    ],
+    title: 'Agentes de Aprendizado por Reforço para Space Invaders com Redes Neurais Profundas',
+    imageUrl: 'https://drive.google.com/uc?export=view&id=1OY8dPrlvIX1jp5EqfC4Z1FLNeswdQ-PW',
+    summary: 'Aborda o tema da aprendizagem de máquina (machine learning) e, mais especificamente, o aprendizado por reforço (reinforcement learning). O aprendizado por reforço envolve treinar um agente para tomar uma sequência de decisões em um ambiente incerto e complexo, recebendo recompensas e penalidades com base em suas ações. O artigo discute o uso de agentes de aprendizado por reforço, especificamente o algoritmo Deep Q-Learning, no ambiente do jogo Space Invaders e compara os seus resultados afim de determinar qual teve mais sucesso. ',
+    keyWords: ['Machine Learning', 'Reinforcement Learning' , 'Deep Q-Learning', 'Space Invaders'],
+  },
+  {
+    authors: [
+      {
+        authorName: 'Leonardo Teixeira Candido',
+        socialUrl: 'https://github.com/DevLeoo',
+      },
+      {
+        authorName: 'Guilherme Salgado Alves',
+        socialUrl: '',
+      }
+    ],
+    title: 'Perfil Invest: Agrupamanto por perfil de investidor',
+    imageUrl: 'https://drive.google.com/uc?export=view&id=10Zdc7HVw_czpr4nOGEPbh-xrUgtnLt3M',
+    summary: 'Perfil Invest tem por objetivo identificar padrões de investimento com base nos dados observados nas ações listadas na bolsa de valores.',
+    projectRepoUrl: 'https://colab.research.google.com/drive/13MwiPu_y6mY6oCLuxa3xhb9Yalc7eHQ-?usp=chrome_ntp',
+    keyWords: ['Investimento', 'Bolsa', 'Agrupamento'],
+  },
+  {
+    authors: [
+      {
+        authorName: 'Lucas Freire de Siqueira',
+        socialUrl: '',
+      },
+    ],
+    title: 'Utilizando Aprendizado por Reforço para criar contraexemplos de conjecturas contidas na Teoria dos Grafos',
+    imageUrl: 'https://drive.google.com/uc?export=view&id=1XrTs17elXH6XJDPn5V_dDlJBY7nw6oGh',
+    summary: 'Esse trabalho explora como o Deep Cross Entropy Method foi utilizado no treinamento de uma IA, utilizando o Aprendizado por Reforço, na tentativa de criar contraexemplos para conjecturas que estejam contidas dentro da Teoria dos Grafos.',
+    keyWords: ['Grafo', 'Aprendizado', 'Reforço', 'Inteligência'],
+  },
+  // {
+  //   authors: [
+  //     {
+  //       authorName: '',
+  //       socialUrl: '',
+  //     },
+  //   ],
+  //   title: '',
+  //   imageUrl: 'https://drive.google.com/uc?export=view&id={ID_DA_IMAGEM}',
+  //   summary: '',
+  //   projectRepoUrl: '',
+  //   keyWords: [],
+  // },
 ];
