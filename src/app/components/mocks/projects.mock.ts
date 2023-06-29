@@ -686,7 +686,7 @@ export const projects: ProjectCard[] = [
       },
       {
         authorName: 'Willy Thiago Gutsche',
-        socialUrl: '',
+        socialUrl: 'https://www.linkedin.com/in/willy-thiago-gutsche-5b881a233/',
       },
     ],
     imageUrl: 'https://drive.google.com/open?id=1ckuGkP-UtrkRjyW1QnaTZD84luIYFwwv',
