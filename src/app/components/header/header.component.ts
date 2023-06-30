@@ -1,5 +1,6 @@
 import { Component, HostListener, Renderer2 } from '@angular/core';
 import { Router } from '@angular/router';
+import { HomeComponent } from '../../../features/home/home.component';
 
 @Component({
   selector: 'app-header',
@@ -35,6 +36,10 @@ export class HeaderComponent {
         break;
       case 'contact':
         this.router.navigate(['contact']);
+        break;
+      case 'subscribe':
+        const homeComponent = new HomeComponent();
+        homeComponent.subscribe();
         break;
       default:
         console.error('parâmetro passado não existe');
