@@ -100,7 +100,7 @@
     justify-content: center;
     align-items: center;
 
-    @media (min-width: 786px) {
+    @media (min-width: 768px) {
       flex-direction: row;
       column-gap: 20px;
     }
@@ -110,7 +110,7 @@
     transition: 0.5s;
     width: 70%;
 
-    @media (min-width: 786px) {
+    @media (min-width: 768px) {
       transition: 0.5s;
 
       width: 30%;
@@ -120,7 +120,7 @@
   &__subscribe-button {
     font-weight: bold;
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 24px;
     padding: 10px 20px;
     text-decoration: underline;
     color: var(--primary-dark);
@@ -129,6 +129,26 @@
     background-color: white;
     border: none;
     transition: 0.2s;
+
+    &--white {
+      background-color: var(--primary);
+      color: white; 
+      font-weight: bold;
+      margin-top: 10px;
+      font-size: 24px;
+      padding: 10px 20px;
+      text-decoration: underline;
+      text-transform: uppercase;
+      font-family: "GothamMedium_1";
+      border: none;
+      transition: 0.2s;
+
+      &:hover {
+        transition: 0.2s;
+        scale: 1.1;
+        cursor: pointer;
+      }
+    }
 
     &:hover {
       transition: 0.2s;

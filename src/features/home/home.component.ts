@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class HomeComponent {
   logo: string = '../../../assets/images/logo-wia.png';
   unifespLogo: string = '../../assets/images/unifesp-logo.png';
-  targetDate: Date = new Date('2023-07-04');
+  targetDate = new Date('2023-07-04T13:00:00-03:00');
 
   constructor() {}
 
