@@ -2,7 +2,7 @@ import { ProjectCard } from '../../interfaces/interface';
 
 export const projects: ProjectCard[] = [
   {
-    authors: [
+    hasImage: true, authors: [
       {
         authorName: 'Leonardo Loureiro Costa',
         socialUrl: 'https://github.com/Leonardo-Costa',
@@ -17,7 +17,7 @@ export const projects: ProjectCard[] = [
     keyWords: ['XAI', 'Classification', 'LIME', 'EfficientNet', 'Wikiart'],
   },
   {
-    authors: [
+    hasImage: true, authors: [
       {
         authorName: 'Gabriela Cristina Moreira dos Santos',
         socialUrl: 'https://www.linkedin.com/in/gabrielacmds/',
@@ -41,32 +41,7 @@ export const projects: ProjectCard[] = [
     projectRepoUrl: 'https://github.com/lcarva12/ReconhecimentoFacial-GAN',
   },
   {
-    authors: [
-      {
-        authorName: 'Eduardo Bouhid Neto',
-        socialUrl: 'https://www.linkedin.com/in/eduardo-bouhid-neto-227a56b7/',
-      },
-      {
-        authorName: 'Paulo Roberto Costa Pedro',
-        socialUrl: 'https://www.linkedin.com/in/paulo-costa-ab41851a1',
-      },
-    ],
-    imageUrl:
-      'https://drive.google.com/uc?export=view&id=1KCCrJXu-rdFHBEQHhc2r8eY_jVvgHBRg',
-    title:
-      'Composições de Bandas do satélite Landsat-8 baseadas em Computação Evolutiva para Detecção de Desmatamento',
-    summary:
-      'A conservação das florestas tropicais é um assunto atual de relevância social e ecológica, devido ao importante papel que elas desempenham no ecossistema global. Infelizmente, milhões de hectares são desmatados e degradados todo ano, sendo necessários programas – governamentais ou de iniciativas privadas – para monitoramento das florestas tropicais. Tais programas contam tanto com o auxílio de profissionais especializados quanto de sistemas computacionais para detecção de padrões. Para que um modelo computacional consiga classificar uma determinada área como desmatamento ou não, geralmente se utilizam imagens de satélite, que possuem a vantagem de ter resolução multiespectral de captura. Porém, a captura de uma imagem em vários comprimentos de onda leva à redundância da informação e à alta quantidade de bandas, causando a "maldição da dimensionalidade". Para contornar esse problema, este trabalho propõe o uso de algoritmos genéticos em imagens capturadas pelo sensor óptico do satélite Landsat-8 visando selecionar a combinação de bandas que apresenta melhor resultado na classificação quanto à presença de desmatamento e melhor resume as imagens coletadas pelos satélites.',
-    keyWords: [
-      'Feature Selection',
-      'Algoritmos Evolucionais',
-      'Sensoriamento Remoto',
-      'Desmatamento',
-    ],
-    projectRepoUrl: 'https://github.com/ebouhid/BandSelection.git',
-  },
-  {
-    authors: [
+    hasImage: true, authors: [
       {
         authorName: 'Gustavo dos Santos Ferreira',
         socialUrl: 'https://github.com/GSF417',
@@ -87,7 +62,7 @@ export const projects: ProjectCard[] = [
     projectRepoUrl: 'https://github.com/GSF417',
   },
   {
-    authors: [
+    hasImage: true, authors: [
       {
         authorName: 'Eduardo Bouhid Neto',
         socialUrl: 'https://www.linkedin.com/in/eduardo-bouhid-neto-227a56b7/',
@@ -112,7 +87,7 @@ export const projects: ProjectCard[] = [
     projectRepoUrl: 'https://github.com/ebouhid/BandSelection.git',
   },
   {
-    authors: [
+    hasImage: true, authors: [
       {
         authorName: 'Matheus Rodrigues Borges Antonio',
         socialUrl: '',
@@ -127,7 +102,7 @@ export const projects: ProjectCard[] = [
     projectRepoUrl: '',
   },
   {
-    authors: [
+    hasImage: true, authors: [
       {
         authorName: 'André Eiki Hiratsuka',
         socialUrl: 'https://www.linkedin.com/in/andre-hiratsuka',
@@ -153,7 +128,7 @@ export const projects: ProjectCard[] = [
       'https://github.com/AndreHiratsuka/Projeto_Final_IA_Unifesp',
   },
   {
-    authors: [
+    hasImage: true, authors: [
       {
         authorName: 'Juan Marcos Martins',
         socialUrl: '',
@@ -173,7 +148,7 @@ export const projects: ProjectCard[] = [
     projectRepoUrl: '',
   },
   {
-    authors: [
+    hasImage: true, authors: [
       {
         authorName: 'Brenda Uemura',
         socialUrl: 'www.linkedin.com/in/brenda-uemura',
@@ -193,7 +168,7 @@ export const projects: ProjectCard[] = [
       'https://colab.research.google.com/drive/1rjbDwkTAyWWBBmpk-urHg3Br8DENRo_B?usp=sharing',
   },
   {
-    authors: [
+    hasImage: true, authors: [
       {
         authorName: 'Enzo Reis de Oliveira',
         socialUrl: 'https://github.com/ero2003730',
@@ -219,7 +194,7 @@ export const projects: ProjectCard[] = [
       'https://github.com/ero2003730/Faculdade/blob/main/Intelig%C3%AAncia%20Artificial/2015.ipynb',
   },
   {
-    authors: [
+    hasImage: true, authors: [
       {
         authorName: 'Marco Antonio Coral dos Santos',
         socialUrl: 'https://www.linkedin.com/in/raphaeldamascenomoraes',
@@ -238,7 +213,7 @@ export const projects: ProjectCard[] = [
     projectRepoUrl: 'https://github.com/mdrapha/Deepfake-Detection',
   },
   {
-    authors: [
+    hasImage: true, authors: [
       {
         authorName: 'Marcos Vinicius Gasparoto Bauab',
         socialUrl: 'https://www.linkedin.com/in/marcos-bauab/',
@@ -263,7 +238,7 @@ export const projects: ProjectCard[] = [
       'https://github.com/MarcosBauab/amazon-image-classification',
   },
   {
-    authors: [
+    hasImage: true, authors: [
       {
         authorName: 'Pedro Figueiredo Dias',
         socialUrl: '',
@@ -283,7 +258,7 @@ export const projects: ProjectCard[] = [
     projectRepoUrl: '',
   },
   {
-    authors: [
+    hasImage: true, authors: [
       {
         authorName: 'Davi Seiji Kawai Santos',
         socialUrl: 'https://www.linkedin.com/in/davi-seiji-449b83251/',
@@ -308,7 +283,7 @@ export const projects: ProjectCard[] = [
     projectRepoUrl: 'https://github.com/P81000/AI-Project_SmartParking.git',
   },
   {
-    authors: [
+    hasImage: true, authors: [
       {
         authorName: 'Guilherme Fernandes Medeiros',
         socialUrl: '',
@@ -328,7 +303,7 @@ export const projects: ProjectCard[] = [
     projectRepoUrl: '',
   },
   {
-    authors: [
+    hasImage: true, authors: [
       {
         authorName: 'Murilo Capozzi dos Santos',
         socialUrl: 'https://www.linkedin.com/in/murilo-capozzi-b73995212/',
@@ -349,7 +324,7 @@ export const projects: ProjectCard[] = [
       'https://github.com/murilocapozzi/DetectionEquipamentFailures',
   },
   {
-    authors: [
+    hasImage: true, authors: [
       {
         authorName: 'Rafael Braga Ennes',
         socialUrl: 'www.linkedin.com/in/rafabraga13',
@@ -365,7 +340,7 @@ export const projects: ProjectCard[] = [
     projectRepoUrl: 'https://github.com/rafaelbragae/Inteligencia_Artificial',
   },
   {
-    authors: [
+    hasImage: true, authors: [
       {
         authorName: 'Rodrigo Augusto Alves Dias',
         socialUrl: '',
@@ -390,7 +365,7 @@ export const projects: ProjectCard[] = [
     projectRepoUrl: 'https://github.com/diasrodrigo15/BehaviourTree',
   },
   {
-    authors: [
+    hasImage: true, authors: [
       {
         authorName: 'Benjamim Rees Pereira do Nascimento',
         socialUrl:
@@ -411,7 +386,7 @@ export const projects: ProjectCard[] = [
       'https://github.com/Benerees/estacionamento_inteligente/tree/main',
   },
   {
-    authors: [
+    hasImage: true, authors: [
       {
         authorName: 'Pedro Henrique Barauna',
         socialUrl: 'https://www.linkedin.com/in/pedro-barauna/',
@@ -426,7 +401,7 @@ export const projects: ProjectCard[] = [
     keyWords: ['inteligência artificial', 'obra de arte', 'deficiência visual'],
   },
   {
-    authors: [
+    hasImage: true, authors: [
       {
         authorName: 'Matheus de Sousa Meire da Silva',
         socialUrl: 'https://github.com/matheuxito/',
@@ -444,57 +419,32 @@ export const projects: ProjectCard[] = [
       'O projeto consiste em uma aplicação do YOLO (um método de detecção de objetos em imagens) em um sistema de identificação e contabilização de vagas e veículos no estacionamento do ICT-Unifesp. Além disso, será feita uma abordagem comparativa de eficiência do uso de diferentes versões do modelo YOLO nesse sistema.',
     keyWords: ['YOLO', 'Veículos', 'Estacionamentos', 'Inovação'],
   },
-  // {
-  //   authors: [
-  //     {
-  //       authorName: 'Isabela Cristina Silva Pedro',
-  //       socialUrl: 'https://www.linkedin.com/in/isabela-cristina/',
-  //     },
-  //     {
-  //       authorName: 'Nicolas Alves Suzuki',
-  //       socialUrl: 'https://www.linkedin.com/in/nicolas-alves-suzuki/',
-  //     },
-  //   ],
-  //   imageUrl: '',
-  //   title:
-  //     'Sinais da Libras para Áudio: primeiros passos de uma ferramenta inovadora',
-  //   summary:
-  //     'O estudo consiste em um sistema para receber sinais da Libras por meio da conexão com uma webcam e convertê-los em áudio em português das respectivas palavras e frases. Dessa forma, o artigo tem como objetivo fomentar o aumento das pesquisas em machine learning aplicada à linguagem de sinais, com ênfase na interação entre pessoas surdas e mudas.',
-  //   keyWords: [
-  //     'Libras',
-  //     'machine learning',
-  //     'CNN',
-  //     'linguagem de sinais',
-  //     'interação',
-  //   ],
-  // },
   {
-    authors: [
+    hasImage: false, authors: [
       {
-        authorName: 'Vinícius da Silva Dias',
-        socialUrl: 'https://github.com/weinStag',
+        authorName: 'Isabela Cristina Silva Pedro',
+        socialUrl: 'https://www.linkedin.com/in/isabela-cristina/',
       },
       {
-        authorName: 'Mateus da Silva Romani',
-        socialUrl: '',
+        authorName: 'Nicolas Alves Suzuki',
+        socialUrl: 'https://www.linkedin.com/in/nicolas-alves-suzuki/',
       },
     ],
-    imageUrl:
-      'https://drive.google.com/uc?export=view&id=1ckJcichkF45qHS6Pst7GSj1diEHdvMsq',
+    imageUrl: '',
     title:
-      'Redes Neurais e Deep Learning no escopo econômico de colecionáveis digitais',
+      'Sinais da Libras para Áudio: primeiros passos de uma ferramenta inovadora',
     summary:
-      'Atualmente a indústria de jogos eletrônicos competitivos vem crescendo de maneira exponencial, e como esperado, o mesmo acontece com seus mercados externos e internos, desde venda de colecionáveis e cosméticos à campeonatos profissionais que movimentam um mercado milionário anualmente. Contudo, há uma lacuna no aproveitamento da grande gama de dados gerada pelo mercado em constante expansão, portanto com uma Rede Neural treinada em deep learning, seria possível analisar um conjunto de dados com características dos cosméticos, como raridade, popularidade e desgaste, e utilizá-las para prevermos valores do mercado referentes aos itens e suas características. Isso portanto permitiria aos usuários tomarem decisões mais informadas tanto ao comprar, vender ou trocar em sua coleção, maximizando assim os lucros e minimizando os riscos.',
+      'O estudo consiste em um sistema para receber sinais da Libras por meio da conexão com uma webcam e convertê-los em áudio em português das respectivas palavras e frases. Dessa forma, o artigo tem como objetivo fomentar o aumento das pesquisas em machine learning aplicada à linguagem de sinais, com ênfase na interação entre pessoas surdas e mudas.',
     keyWords: [
-      'Rede Neural',
-      'Deep Learning',
-      'Predição',
-      'Mercado Digital',
-      'Colecionáveis Digitais',
+      'Libras',
+      'machine learning',
+      'CNN',
+      'linguagem de sinais',
+      'interação',
     ],
   },
   {
-    authors: [
+    hasImage: true, authors: [
       {
         authorName: 'Kazuhiro Kojio',
         socialUrl: 'https://www.linkedin.com/in/kazuhirodk/',
@@ -516,7 +466,7 @@ export const projects: ProjectCard[] = [
     ],
   },
   {
-    authors: [
+    hasImage: true, authors: [
       {
         authorName: 'Vinícius Massaru Oliveira Tanaka',
         socialUrl: 'https://www.linkedin.com/in/vinicius-tanaka-67460b166/',
@@ -536,24 +486,8 @@ export const projects: ProjectCard[] = [
       'Diagnóstico Odontológico',
     ],
   },
-  // {
-  //   authors: [
-  //     {
-  //       authorName: 'Guilherme Salgado Alves',
-  //       socialUrl:
-  //         'https://www.linkedin.com/in/guilherme-salgado-alves-1b3653182/',
-  //     },
-  //   ],
-  //   imageUrl:
-  //     'https://drive.google.com/uc?export=view&id=1C7wwL-KOikRPEhdukH7ID4FlTFZLO-m0',
-  //   title:
-  //     'Perfil Invest, utilização de técnicas de agrupamento para definição de ações para estudo de acordo com perfil de investidor',
-  //   summary:
-  //     'O mercado financeiro consiste na alocação de ativos entre as diversas opções de produtos oferecidos por bancos e corretoras. Considerando a imensa diversidade de opções, a melhor e talvez única possibilidade de ser bem-sucedido no mercado é estar corretamente alinhado com seus próprios objetivos. Com base nesta demanda que existem os perfis de investidores do mercado financeiro. O objetivo deste trabalho é fazer com que os investidores pessoa física possam estudar ações presentes no mercado de capitais brasileiro de maneira direcionada, com base em seu próprio perfil de investidor, com suas respectivas aversões a risco, tolerâncias a volatilidade, entre outros. Para isso, serão utilizadas técnicas de agrupamento presentes nas literaturas da inteligência artificial, para que possam selecionar e agrupar por afinidade determinados grupos de ações, para que investidores menos experientes possam mergulhar em estudos previamente analisados, e saibam o tipo de informação e ativos que estão lidando. Não se trata de recomendação de compra ou de venda de nenhum ativo, mas sim da pré-seleção de ações de acordo com determinados perfis de investidor, para que se possa haver um estudo guiado.',
-  //   keyWords: ['perfil de investidor', 'ações', 'agrupamento'],
-  // },
   {
-    authors: [
+    hasImage: true, authors: [
       {
         authorName: 'Francine Gonçalves Franco',
         socialUrl: 'https://github.com/francinefranco',
@@ -572,7 +506,7 @@ export const projects: ProjectCard[] = [
     ],
   },
   {
-    authors: [
+    hasImage: true, authors: [
       {
         authorName: 'Leonardo Silva Pinto',
         socialUrl: '',
@@ -597,7 +531,7 @@ export const projects: ProjectCard[] = [
     ],
   },
   {
-    authors: [
+    hasImage: true, authors: [
       {
         authorName: 'Felipe Fernandes',
         socialUrl: '',
@@ -622,7 +556,7 @@ export const projects: ProjectCard[] = [
     ],
   },
   {
-    authors: [
+    hasImage: true, authors: [
       {
         authorName: 'Lécio Oliveira Gonçalves de Assis',
         socialUrl: 'https://www.linkedin.com/in/lecioassis/',
@@ -642,23 +576,112 @@ export const projects: ProjectCard[] = [
       'Listas de Reprodução',
     ],
   },
-  // {
-  //   authors: [
-  //     {
-  //       authorName: 'Gabriel Hiro Guedes Kobayakawa Fornel',
-  //       socialUrl: 'https://www.linkedin.com/in/gabriel-hiroxd-249965279',
-  //     },
-  //     {
-  //       authorName: 'Guilherme de Oliveira Sousa',
-  //       socialUrl:
-  //         'https://www.linkedin.com/in/guilherme-de-oliveira-sousa-370233260/',
-  //     },
-  //   ],
-  //   imageUrl: '',
-  //   title:
-  //     'O aprendizado de máquina aplicado na compreensão da resposta de pacientes com artrite reumatoide tratados com anti-TNF',
-  //   summary:
-  //     'Diversas doenças inflamatórias autoimunes são tratadas com inibidores de TNF (uma importante citocina envolvida em diversos distúrbios imunológicos). Utilizando do aprendizado de máquina, o presente projeto pretende encontrar grupos de genes que sirvam como biomarcadores ao tratamento com anti-TNF. Isto é, grupos de genes que sinalizem, dentro de uma margem de erro satisfatória, uma resposta positiva ao tratamento (ou, até mesmo grupos de genes que sinalizem uma provável resposta negativa ao tratamento) com anti-TNF’s. A abordagem escolhida é baseada na transformação de dados não imagéticos em dados do tipo imagem imagens (ou seja, compostos por pixels), para que estratégias de deeplearning em imagens possam ser aplicadas em dados biológicos não imagéticos - neste caso, a expressão genética de pacientes acometidos com artrite reumatoide.',
-  //   keyWords: ['Anti-TNF', 'Imunologia', 'VisionTransformers', 'DeepInsight'],
-  // },
+  {
+    hasImage: true, authors: [
+      {
+        authorName: 'Mateus da Silva Romani',
+        socialUrl: 'https://www.linkedin.com/in/mateus-r-29463b138/',
+      },
+      {
+        authorName: 'Vinicius da Silva Dias',
+        socialUrl: 'https://github.com/users/weinStag/projects/2',
+      },
+    ],
+    imageUrl: 'https://drive.google.com/uc?export=view&id=1I59kO4Np_vZLamKpF8cWjBFIK7xQGMgZ',
+    title: 'Redes Neurais e Deep Learning no escopo econômico de colecionáveis digitais',
+    summary: "Atualmente a indústria de jogos eletrônicos competitivos vem crescendo de maneira exponencial, e como esperado, o mesmo acontece com seus mercados externos e internos, desde venda de colecionáveis e cosméticos à campeonatos profissionais que movimentam um mercado milionário anualmente. Contudo, há uma lacuna no aproveitamento da grande gama de dados gerada pelo mercado em constante expansão, portanto com uma Rede Neural treinada em deep learning, seria possível analisar um conjunto de dados com características das skins, como raridade, popularidade e desgaste, e utilizá-las para prevermos valores do mercado referentes aos itens e suas características. Isso portanto permitiria aos usuários tomarem decisões mais informadas tanto ao comprar, vender ou trocar suas skins, maximizando assim os lucros e minimizando os riscos.",
+    keyWords: ['Rede Neural', 'Deep Learning', 'Predição', 'Mercado Digital', 'Colecionáveis Digitais'],
+    projectRepoUrl: 'https://www.linkedin.com/in/mateus-r-29463b138/,'
+  },
+  {
+    hasImage: true, authors: [
+      {
+        authorName: 'Jamil Anderson Mansur',
+        socialUrl: 'https://www.linkedin.com/in/jamil-mansur/',
+      },
+      {
+        authorName: 'Willy Thiago Gutsche',
+        socialUrl: 'https://www.linkedin.com/in/willy-thiago-gutsche-5b881a233/',
+      },
+    ],
+    imageUrl: 'https://drive.google.com/uc?export=view&id=1ckuGkP-UtrkRjyW1QnaTZD84luIYFwwv',
+    title: 'Reconhecimento de objetos em Imagens: Uma Abordagem de Aprendizado Profundo',
+    summary: 'Temos como objetivo fazer uma análise e comparação entre as principais e mais modernas arquiteturas de deep learning que trabalham com reconhecimento de objetos em imagens, deste a classificação e localização de cada objeto até a segmentação semântica que confere maior precisão. Seu uso é muito amplo, desde Sistemas que utilizam câmeras de segurança equipadas com algoritmos de reconhecimento de objetos e pessoas para monitorar e analisar imagens em tempo real; Sistemas de detecção de incêndio ou queimadas onde é alertado se está ocorrendo um incêndio.',
+    projectRepoUrl: 'https://github.com/GutscheWilly/reconhecimento-objetos',
+    keyWords: ["Detecção", 'Imagem', 'Segurança', 'Reconhecimento'],
+  },
+  {
+    hasImage: true, authors: [
+      {
+        authorName: 'Rafaela Cristine dos Santos Uchôas',
+        socialUrl: 'linkedin.com/in/rafaelauchoas/',
+      }
+    ],
+    imageUrl: 'https://drive.google.com/uc?export=view&id=1I5GZrpY2OjbnRoxd8paJS9SGaQO6yoij',
+    title: 'Mineração de texto voltada para artigos científicos',
+    summary: 'O projeto consiste no desenvolvimento de uma ferramenta de análise de texto com o objetivo de facilitar a busca e identificação de artigos científicos. Observando as dificuldades enfrentadas na pesquisa e catalogação desses artigos, decorrentes da grande quantidade de documentos dispersos em diferentes bibliotecas digitais, percebe-se a necessidade de encontrar uma solução que agilize o processo de descoberta dos artigos mais relevantes para um determinado trabalho. As palavras-chave nem sempre são eficientes na busca, resultando em uma grande quantidade de documentos que precisam ser analisados manualmente. Nesse contexto, propomos o desenvolvimento de uma ferramenta que simplifica as informações básicas e acelera o processo de interpretação e pesquisa científica extraindo informações de arquivos de texto, focando em artigos científicos. A ferramenta preenche automaticamente os campos essenciais, como Título, Autores, Palavras-chave, Data de publicação, DOI ou identificador único. Os dados são extraídos de um banco de dados de artigos científicos e listados de forma organizada, facilitando a busca e classificação dos mesmos.',
+    projectRepoUrl: 'https://github.com/rafaelauchoas/textminingWIA',
+    keyWords: ["Mineração de texto", 'Artigos Científicos', 'Análise de Artigos'],
+  },
+  {
+    hasImage: true, authors: [
+      {
+        authorName: 'Luca de Paula Nascimento Lima',
+        socialUrl: '',
+      },
+    ],
+    title: 'Agentes de Aprendizado por Reforço para Space Invaders com Redes Neurais Profundas',
+    imageUrl: 'https://drive.google.com/uc?export=view&id=1KQEv2IqDI123LsF0KHVvjbwIt6W0LR4B',
+    summary: 'Aborda o tema da aprendizagem de máquina (machine learning) e, mais especificamente, o aprendizado por reforço (reinforcement learning). O aprendizado por reforço envolve treinar um agente para tomar uma sequência de decisões em um ambiente incerto e complexo, recebendo recompensas e penalidades com base em suas ações. O artigo discute o uso de agentes de aprendizado por reforço, especificamente o algoritmo Deep Q-Learning, no ambiente do jogo Space Invaders e compara os seus resultados afim de determinar qual teve mais sucesso. ',
+    keyWords: ['Machine Learning', 'Reinforcement Learning', 'Deep Q-Learning', 'Space Invaders'],
+  },
+  {
+    hasImage: true, authors: [
+      {
+        authorName: 'Leonardo Teixeira Candido',
+        socialUrl: 'https://github.com/DevLeoo',
+      },
+      {
+        authorName: 'Guilherme Salgado Alves',
+        socialUrl: '',
+      }
+    ],
+    title: 'Perfil Invest: Agrupamanto por perfil de investidor',
+    imageUrl: 'https://drive.google.com/uc?export=view&id=10Zdc7HVw_czpr4nOGEPbh-xrUgtnLt3M',
+    summary: 'Perfil Invest tem por objetivo identificar padrões de investimento com base nos dados observados nas ações listadas na bolsa de valores.',
+    projectRepoUrl: 'https://colab.research.google.com/drive/13MwiPu_y6mY6oCLuxa3xhb9Yalc7eHQ-?usp=chrome_ntp',
+    keyWords: ['Investimento', 'Bolsa', 'Agrupamento'],
+  },
+  {
+    hasImage: true, authors: [
+      {
+        authorName: 'Lucas Freire de Siqueira',
+        socialUrl: '',
+      },
+    ],
+    title: 'Utilizando Aprendizado por Reforço para criar contraexemplos de conjecturas contidas na Teoria dos Grafos',
+    imageUrl: 'https://drive.google.com/uc?export=view&id=1XrTs17elXH6XJDPn5V_dDlJBY7nw6oGh',
+    summary: 'Esse trabalho explora como o Deep Cross Entropy Method foi utilizado no treinamento de uma IA, utilizando o Aprendizado por Reforço, na tentativa de criar contraexemplos para conjecturas que estejam contidas dentro da Teoria dos Grafos.',
+    keyWords: ['Grafo', 'Aprendizado', 'Reforço', 'Inteligência'],
+  },
+  {
+    hasImage: false,
+    authors: [
+      {
+        authorName: 'Gabriel Hiro Guedes Kobayakawa Fornel',
+        socialUrl: 'https://www.linkedin.com/in/gabriel-hiroxd-249965279',
+      },
+      {
+        authorName: 'Guilherme de Oliveira Sousa',
+        socialUrl:
+          'https://www.linkedin.com/in/guilherme-de-oliveira-sousa-370233260/',
+      },
+    ],
+    imageUrl: '',
+    title:
+      'O aprendizado de máquina aplicado na compreensão da resposta de pacientes com artrite reumatoide tratados com anti-TNF',
+    summary:
+      'Diversas doenças inflamatórias autoimunes são tratadas com inibidores de TNF (uma importante citocina envolvida em diversos distúrbios imunológicos). Utilizando do aprendizado de máquina, o presente projeto pretende encontrar grupos de genes que sirvam como biomarcadores ao tratamento com anti-TNF. Isto é, grupos de genes que sinalizem, dentro de uma margem de erro satisfatória, uma resposta positiva ao tratamento (ou, até mesmo grupos de genes que sinalizem uma provável resposta negativa ao tratamento) com anti-TNF’s. A abordagem escolhida é baseada na transformação de dados não imagéticos em dados do tipo imagem imagens (ou seja, compostos por pixels), para que estratégias de deeplearning em imagens possam ser aplicadas em dados biológicos não imagéticos - neste caso, a expressão genética de pacientes acometidos com artrite reumatoide.',
+    keyWords: ['Anti-TNF', 'Imunologia', 'VisionTransformers', 'DeepInsight'],
+  },
 ];

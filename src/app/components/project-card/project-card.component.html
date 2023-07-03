@@ -1,6 +1,6 @@
 <div class="project-card" (click)="openModal()">
   <div class="project-card__content">
-    <div class="project-card__image-container">
+    <div class="project-card__image-container" *ngIf="cardData.hasImage">
       <img [src]="cardData.imageUrl" alt="" class="project-card__image" />
     </div>
     <div class="project-card__title">{{ cardData.title }}</div>

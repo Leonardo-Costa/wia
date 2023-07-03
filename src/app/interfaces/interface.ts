@@ -5,6 +5,7 @@ export interface ProjectCard {
   projectRepoUrl?: string;
   authors: Author[];
   keyWords: string[];
+  hasImage: boolean;
 }
 
 export interface Author {
