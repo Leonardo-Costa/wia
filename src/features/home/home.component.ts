@@ -14,6 +14,6 @@ export class HomeComponent {
 
   subscribe(): void {
     window.location.href =
-      'https://sistemas.unifesp.br/acad/proec-siex/index.php?page=INS&acao=2&code=23796';
+      'https://www.youtube.com/watch?v=-LgxD3oOEyw';
   }
 }
